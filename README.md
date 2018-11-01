@@ -5,20 +5,20 @@ cnpm install json-sever -g
 cnpm install
 
 # 配置package.json命令
-<code>
- "scripts": {<br />
-    "dev":"json-server index.js -p 3003",<br />
-    "test": "echo \"Error: no test specified\" && exit 1"<br />
+```javascript
+"scripts": {
+    "dev":"json-server index.js -p 3003",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
   
-</code>
-
+```
  # 运行项目
   npm run dev启动项目
   
  # 自定义api
  
-// 引入mockjs
+ ```javascript 
+ // 引入mockjs
 // const Mock = require('mockjs');
 import Mock from "mockjs"
 // 获取 mock.Random 对象
@@ -45,9 +45,10 @@ const productData = function() {
  */
 // Mock.mock( url, post/get , 返回的数据)；
 Mock.mock('https:test.cn/user/login', 'post', productData );
-
-
-# 在vue使用
+ ```
+ 
+# 在vue使
+```javascript
 <script>
 	import userData from "../data/user.js"
 	export default{
@@ -62,3 +63,5 @@ Mock.mock('https:test.cn/user/login', 'post', productData );
 		}
 	}
 </script>
+```
+
