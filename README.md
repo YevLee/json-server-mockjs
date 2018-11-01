@@ -4,7 +4,7 @@ cnpm install json-sever -g
 ### 安装全局依赖
 cnpm install
 
-# 配置package.json命令
+### 配置package.json命令
 ```javascript
 "scripts": {
     "dev":"json-server index.js -p 3003",
