@@ -5,11 +5,14 @@ cnpm install json-sever -g
 cnpm install
 
 # 配置package.json命令
+<code>
  "scripts": {
     "dev":"json-server index.js -p 3003",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
   
+</code>
+
  # 运行项目
   npm run dev启动项目
   
