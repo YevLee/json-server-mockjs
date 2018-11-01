@@ -6,9 +6,9 @@ cnpm install
 
 # 配置package.json命令
 <code>
- "scripts": {
-    "dev":"json-server index.js -p 3003",
-    "test": "echo \"Error: no test specified\" && exit 1"
+ "scripts": {<br>
+    "dev":"json-server index.js -p 3003",<br>
+    "test": "echo \"Error: no test specified\" && exit 1"<br>
   }
   
 </code>
