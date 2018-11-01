@@ -1,7 +1,7 @@
-# 全局安装
+### 全局安装
 cnpm install json-sever -g
 
-# 安装全局依赖
+### 安装全局依赖
 cnpm install
 
 # 配置package.json命令
@@ -12,10 +12,10 @@ cnpm install
   }
   
 ```
- # 运行项目
+ ### 运行项目
   npm run dev启动项目
   
- # 自定义api
+ ### 自定义api
  
  ```javascript 
  // 引入mockjs
@@ -47,7 +47,7 @@ const productData = function() {
 Mock.mock('https:test.cn/user/login', 'post', productData );
  ```
  
-# 在vue使
+### 在vue中使用
 ```javascript
 <script>
 	import userData from "../data/user.js"
